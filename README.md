@@ -1,15 +1,15 @@
 # 🧅 .NET 8 Clean API Template
 
-Bu proje, **Onion Architecture** prensiplerine uygun olarak geliştirilmiş, ölçeklenebilir ve test edilebilir bir .NET 8 API uygulamasıdır. Aşağıdaki modern yazılım mimarisi ve desenleri kullanılmıştır:
+This project is a scalable and testable .NET 8 API application developed in accordance with **Onion Architecture** principles. It incorporates modern software architecture patterns and design practices as listed below:
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- ✅ **Onion Architecture** — Katmanlı, bağımsız ve sürdürülebilir yapı
-- ✅ **CQRS** (Command Query Responsibility Segregation) — Sorgu ve komutların ayrılması
-- ✅ **MediatR** — Katmanlar arası loosely-coupled iletişim
-- ✅ **FluentValidation** — Request doğrulama işlemleri
-- ✅ **Global Exception Handling** — Tüm uygulama genelinde merkezi hata yönetimi
-- ✅ **Unit of Work & Repository Pattern** — Veritabanı işlemleri için sağlam yapı
-- ✅ **Redis Cache** — Performans artırımı için önbellekleme desteği
+- ✅ **Onion Architecture** — Layered, independent, and maintainable structure  
+- ✅ **CQRS** (Command Query Responsibility Segregation) — Separation of read and write operations  
+- ✅ **MediatR** — Loosely-coupled communication between layers  
+- ✅ **FluentValidation** — Request validation  
+- ✅ **Global Exception Handling** — Centralized error handling across the application  
+- ✅ **Unit of Work & Repository Pattern** — Robust structure for database operations  
+- ✅ **Redis Cache** — Caching support to boost performance
